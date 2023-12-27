@@ -1,0 +1,25 @@
+.githubLink {
+  color: #cc6b49;
+  text-decoration: none;
+}
+p {
+  text-align: center;
+  font-size: 12px;
+}
+
+.linkedinProfile {
+  color: #cc6b49;
+  text-decoration: none;
+}
+.githubLink:hover {
+  text-decoration: underline;
+}
+.linkedinProfile:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 550px) {
+  p {
+    font-size: 10px;
+  }
+}

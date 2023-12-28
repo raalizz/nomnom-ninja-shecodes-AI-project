@@ -1,9 +1,15 @@
 :root {
   --main-background-color: #bebcdf;
+  --secondary-color: #cc6b49;
 }
 
 body {
   background-color: var(--main-background-color);
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  text-align: center;
 }
 
 .githubLink {
@@ -16,7 +22,7 @@ p {
 }
 
 .linkedinProfile {
-  color: #cc6b49;
+  color: var(--secondary-color);
   text-decoration: none;
 }
 .githubLink:hover {

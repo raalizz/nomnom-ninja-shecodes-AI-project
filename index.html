@@ -18,6 +18,8 @@
       crossorigin="anonymous"
     ></script>
 
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
     <title>NomNom Ninja AI recipe generator</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
@@ -35,7 +37,7 @@
 
     <main>
       <section class="form-section">
-        <form>
+        <form id="form">
           <input
             type="text"
             placeholder="write down some ingredients"
@@ -49,11 +51,7 @@
       </section>
 
       <section class="recipe-section">
-        <div class="recipe-details">
-          the recipe will go here
-          <br />
-          recipe will go here
-        </div>
+        <div class="recipe-details" id="recipe"></div>
       </section>
     </main>
     <footer>

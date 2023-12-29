@@ -1,39 +1,97 @@
 :root {
   --main-background-color: #bebcdf;
   --secondary-color: #cc6b49;
+  --third-color: #272044;
+  --fourth-color: #f8f8f8;
+  --main-font-family: "Poppins", sans-serif;
 }
 
 body {
   background-color: var(--main-background-color);
-  font-family: "Courier New", Courier, monospace;
+  font-family: var(--main-font-family);
 }
-
-h1 {
+header {
+  padding: 100px 0;
+  background-color: var(--third-color);
+}
+header h1 {
   text-align: center;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 1.5;
+  color: #fff;
+  letter-spacing: 5px;
+}
+header h3 {
+  text-align: center;
+  line-height: 1;
+  font-weight: 100;
+  font-size: 25px;
+  color: #fff;
+  letter-spacing: 5px;
+}
+header .icons {
+  text-align: center;
+  color: #fff;
+  letter-spacing: 5px;
+  margin-top: 50px;
+  font-size: 20px;
 }
 
-.githubLink {
+.form-section {
+  text-align: center;
+  background-color: #fff;
+}
+.form-section input {
+  margin: 30px auto;
+}
+.form-section .text {
+  width: 300px;
+  padding: 8px 60px;
+}
+.form-section .submit {
+  width: 100px;
+  padding: 8px 20px;
+}
+
+.recipe-section {
+  padding: 20px 500px;
+  background-color: var(--fourth-color);
+}
+footer .githubLink {
   color: #cc6b49;
   text-decoration: none;
 }
-p {
+footer p {
   text-align: center;
   font-size: 12px;
 }
 
-.linkedinProfile {
+footer .linkedinProfile {
   color: var(--secondary-color);
   text-decoration: none;
 }
-.githubLink:hover {
+footer .githubLink:hover {
   text-decoration: underline;
 }
-.linkedinProfile:hover {
+footer .linkedinProfile:hover {
   text-decoration: underline;
 }
 
 @media (max-width: 550px) {
-  p {
+  header {
+    padding: 80px 0;
+  }
+  header h1 {
+    font-size: 27px;
+  }
+  header h3 {
+    font-size: 15px;
+  }
+  header .icons {
+    margin-top: 30px;
+  }
+  footer p {
     font-size: 10px;
   }
 }

@@ -40,6 +40,7 @@ header .icons {
 }
 
 .form-section {
+  margin-top: 10px;
   text-align: center;
   background-color: #fff;
 }
@@ -62,6 +63,7 @@ header .icons {
 }
 
 .recipe-section {
+  margin-top: 10px;
   background-color: var(--fourth-color);
 }
 .recipe-section .recipe-details {

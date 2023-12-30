@@ -61,15 +61,35 @@ header .icons {
   border-radius: 5px;
   background-color: var(--main-color);
 }
+.hints {
+  display: flex;
+  position: relative;
+  top: -30px;
+  right: -130px;
+  font-size: 11px;
+  line-height: 1.5;
+  opacity: 0.6;
+}
 
 .recipe-section {
   margin-top: 10px;
   background-color: var(--fourth-color);
 }
+.hidden {
+  display: none;
+}
 .recipe-section .recipe-details {
   padding: 20px;
   line-height: 1.5;
 }
+
+.gif {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+  padding-bottom: 20px;
+}
+
 footer .githubLink {
   color: #cc6b49;
   text-decoration: none;
@@ -112,6 +132,18 @@ footer .linkedinProfile:hover {
   }
   .recipe-section .recipe-details {
     font-size: 12px;
+  }
+
+  .hints {
+    display: flex;
+    position: relative;
+    top: -30px;
+    right: -50px;
+    font-size: 7px;
+  }
+
+  .gif {
+    max-width: 150px;
   }
 
   footer p {

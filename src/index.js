@@ -22,6 +22,8 @@ function displayRecipe(response) {
     cursor: null,
     delay: 10,
   });
+  let gifImage = document.querySelector("#gif");
+  gifImage.style.display = "none";
 }
 
 let formElement = document.querySelector("#form");
